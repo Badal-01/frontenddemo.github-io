@@ -1,0 +1,166 @@
+*{
+      margin: 0;
+      padding: 0;
+}
+.firstsection{
+      
+      background-color: rgb(123, 105, 238);
+}
+.logo{
+      width: 30%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+.logo img{
+      width: 40%;
+      
+}
+.navbar{
+      width: 100%;
+      height: 100px;
+      display: flex;
+      background-color: rgb(123, 105, 238);
+      align-items: center;
+      justify-content: center;
+      
+      cursor: pointer;
+      position: sticky;
+}
+.nav-list{
+      width: 100%;
+      text-align: right;
+      
+      display: flex;
+      align-items: center;
+}
+.rightNav{
+      
+      
+      width: 50%;
+      height: 300px;
+      text-align: center;
+      
+}
+.nav-list li{
+      
+      list-style: none;
+      padding: 16px 20px;
+}
+.nav-list a{
+      color: white;
+}
+.nav-list li a:hover {
+      text-decoration: none;
+      color: rgb(61, 72, 75);
+}
+#search{
+      padding: 5px;
+      font-size: 17px;
+
+      border-radius: 9px;
+}
+.rightNav input{
+      margin-top: 60px;
+}
+.LoginSignup{
+      width: 50%;
+      
+      
+}
+.firstsection{
+      display: flex;
+}
+.SubLS{
+      margin-left: 35%;
+      margin-top: 5%;
+}
+#pppp{
+      padding: 5px;
+      font-size: 17px;
+      border: 2px solid grey;
+      border-radius: 9px;
+      
+      align-items: center;
+}
+#email{
+      padding: 5px;
+      font-size: 17px;
+      border: 2px solid grey;
+      border-radius: 9px;
+      
+      align-items: center;
+}
+#pass{
+      padding: 5px;
+      font-size: 17px;
+      border: 2px solid grey;
+      border-radius: 9px;
+      
+      align-items: center;
+}
+.button{
+      justify-content: center;
+      align-items: center;
+      margin-left: 40px;
+}
+#forgot{
+      color: white;
+      justify-content: center;
+      align-items: center;
+      margin-left: 40px;
+}
+#Sign{
+      
+      color: white;
+      text-align: center;
+
+}
+.SignUp{
+      text-align: center;
+      margin-top: 80px;
+      
+} 
+
+#h3{
+      color: rgb(236, 167, 167);
+      
+}
+.secRight{
+      
+      padding: 20px;
+      border-radius: 50px;
+      color: rgb(51, 36, 87);
+      background-color: lightblue;
+      
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      max-width: 80%;
+      margin: auto;
+      
+
+}
+.thumbnail img{
+      height: 200px;
+      width: 200px;
+}
+.secRight1{
+      padding: 20px;
+      border-radius: 50px;
+      background-color: lightblue;
+      border-radius: 2px solid grey;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      max-width: 80%;
+      margin: auto;
+}
+.text-footer{
+      text-align: center;
+      padding: 30px 0;
+
+      display: flex;
+      justify-content: center;
+      
+}
